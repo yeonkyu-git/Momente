@@ -116,10 +116,10 @@ DB 관리:       Supabase CLI
 │
 ├── frontend/                          # ─── Frontend ─────────────────────
 │   ├── app/                           # Expo Router 파일 기반 라우팅
-│   │   ├── (auth)/
+│   │   ├── auth/
 │   │   │   ├── login.tsx              # 카카오 로그인
 │   │   │   └── couple-match.tsx       # 커플 매칭
-│   │   ├── (tabs)/
+│   │   ├── tabs/
 │   │   │   ├── feed.tsx               # 피드
 │   │   │   ├── calendar.tsx           # 날짜별 보기
 │   │   │   ├── map.tsx                # 지도 보기
@@ -128,7 +128,7 @@ DB 관리:       Supabase CLI
 │   │   │   ├── upload.tsx             # Step 1: 사진 선택 + 메타데이터 추출
 │   │   │   ├── place.tsx              # Step 2: 장소/날짜 확인 및 수정
 │   │   │   ├── memo.tsx               # Step 3: 메모 입력 + 최종 업로드
-│   │   │   └── [id].tsx               # 게시글 상세
+│   │   │   └── detail.tsx               # 게시글 상세
 │   │   └── _layout.tsx
 │   │
 │   ├── components/
